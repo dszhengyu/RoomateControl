@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>561</width>
+    <height>379</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="img.qrc">
+    <normaloff>:/icon/20150118043004338_easyicon_net_951.png</normaloff>:/icon/20150118043004338_easyicon_net_951.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>-5</x>
+      <y>1</y>
+      <width>571</width>
+      <height>291</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>561</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuBegin">
+    <property name="title">
+     <string>Begin</string>
+    </property>
+    <addaction name="actionLogin"/>
+    <addaction name="actionShow_Roomates"/>
+    <addaction name="actionAdd_Newcomer"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuBegin"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionLogin"/>
+   <addaction name="actionShow_Roomates"/>
+   <addaction name="actionAdd_Newcomer"/>
+   <addaction name="actionAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionShow_Roomates">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/icon/20150118021345870_easyicon_net_512.png</normaloff>:/icon/20150118021345870_easyicon_net_512.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show Roomates</string>
+   </property>
+  </action>
+  <action name="actionAdd_Newcomer">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/icon/20150118021431719_easyicon_net_645.png</normaloff>:/icon/20150118021431719_easyicon_net_645.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Newcomer</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/icon/20150118021416865_easyicon_net_156.png</normaloff>:/icon/20150118021416865_easyicon_net_156.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionLogin">
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/icon/2015011802131317_easyicon_net_642.png</normaloff>:/icon/2015011802131317_easyicon_net_642.png</iconset>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

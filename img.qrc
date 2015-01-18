@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>2015011802131317_easyicon_net_642.png</file>
+        <file>20150118021345870_easyicon_net_512.png</file>
+        <file>20150118021416865_easyicon_net_156.png</file>
+        <file>20150118021431719_easyicon_net_645.png</file>
+        <file>20150118043004338_easyicon_net_951.png</file>
+        <file>strongman.png</file>
+    </qresource>
+</RCC>
